@@ -1,0 +1,37 @@
+.container {
+ font-family: "Consolas";
+}
+
+.grid-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 4px;
+  width: fit-content;
+  margin: 2rem auto;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reset-wrap {
+  width: 100%;
+  text-align: center;
+}
+
+.reset-wrap > button {
+  margin: auto;
+  padding: 12px;
+  font-size: 15px;
+}
+
